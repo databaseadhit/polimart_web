@@ -62,4 +62,18 @@ window.addEventListener("DOMContentLoaded", () => {
       }
     });
   });
+
+  // ⬇️ Tambahkan footer copyright
+  const footer = document.createElement("footer");
+  footer.innerHTML = `
+    <p style="
+      text-align:center;
+      margin-top:30px;
+      font-size:13px;
+      color:#666;
+    ">
+      © Beckz 2025 - All Rights Reserved
+    </p>
+  `;
+  document.body.appendChild(footer);
 });
